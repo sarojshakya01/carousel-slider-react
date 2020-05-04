@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+.slide-arrow {
+  position: fixed;
+  top: 40%;
+  z-index: 1;
+  zoom: 10;
+  cursor: pointer;
+  opacity: 0.7;
+}
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+}
+
+.image-slide {
+  position: fixed;
+}
